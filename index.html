@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>House of Devs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+        min-height: 100vh;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 55px;
+      }
+      .page {
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 65px;
+      }
+      img {
+        max-width: 100%;
+      }
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      ul {
+        font-family: Mulish, sans-serif;
+        list-style: none;
+        display: flex;
+        gap: 48px;
+        margin: 0;
+        padding: 0;
+      }
+      ul li a {
+        opacity: 0.5;
+      }
+      ul li a:hover {
+        font-weight: 700;
+        opacity: 1;
+      }
+      a {
+        color: #1f1534;
+        text-decoration: none;
+      }
+      h1 {
+        width: 60%;
+        font-family: Mulish, sans-serif;
+        font-size: 48px;
+        line-height: 56px;
+        color: #1f1534;
+        font-weight: 400;
+      }
+      h1 span {
+        color: #89c5cc;
+        font-weight: 700;
+      }
+      section p {
+        font-size: 14px;
+        line-height: 28px;
+        color: #7d7987;
+        margin: 40px 0;
+      }
+      button {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        background: #69b99d;
+        padding: 15px 32px 15px;
+        border: 0;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #5aa087;
+      }
+      footer {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 80px;
+      }
+      footer a {
+        font-weight: 700;
+      }
+      #balls {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+      @media screen and (max-width: 600px) {
+        main {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+        #hero {
+          margin: 0;
+        }
+        .page {
+          width: 90%;
+          padding-top: 35px;
+        }
+        h1 {
+          font-size: 40px;
+          width: auto;
+        }
+        section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        section p {
+          font-size: 19px;
+          line-height: normal;
+          width: 90%;
+        }
+        button {
+          margin: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <nav>
+        <a id="logo" href="#"><img src="https://github.com/malunaridev/Rocketseat-Explorer/blob/main/Projeto-02/images/logo.png?raw=true" alt="House of Devs" /></a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Events</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section>
+          <h1>House <span>of</span> Devs!</h1>
+          <p>House of Devs is a Community developed by aspiring developers to enrich their knowledge and inspire them to create their own projects.</p>
+          <button><img src="https://github.com/malunaridev/Rocketseat-Explorer/blob/main/Projeto-02/images/whatsapp_icon.png?raw=true" alt="ícone do Whatsapp" /> Join Community!</button>
+        </section>
+        <img src="https://i.imgur.com/HTc65Io.png" alt="mulher pulando corda em uma academia" />
+      </main>
+      <footer>fale conosco no instagram<a href="https://instagram.com/treineme" target="_blank">@treine_me</a></footer>
+    </div>
+    <img id="balls" src="https://github.com/malunaridev/Rocketseat-Explorer/blob/main/Projeto-02/images/balls-decoration.png?raw=true" alt="Developers" />
+  </body>
+</html>
